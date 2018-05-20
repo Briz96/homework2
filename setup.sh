@@ -1,6 +1,6 @@
 cp LaboratorioAlfa.world ~/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/.
 cp homework2_LabAlfa.launch ~/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/launch/.
-cp -r *(nome della cartella dei modelli)* ~/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/.
+cp -r *(Modelli)* ~/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/.
 
 echo Select your turtlebot model
 echo export TURTLEBOT3_MODEL=waffle
