@@ -1,0 +1,13 @@
+cp LaboratorioAlfa.world ~/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/.
+cp homework2_LabAlfa.launch ~/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/launch/.
+cp -r modelli ~/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/.
+
+echo Select your turtlebot model
+echo export TURTLEBOT3_MODEL=waffle
+
+echo Launch LabAlfa with turtlebot:
+echo roslaunch turtlebot3_gazebo homework2_LabAlfa.launch
+
+echo 
+echo Then launch Turtlebot autonomous navigation:
+echo roslaunch turtlebot3_gazebo turtlebot3_simulation.launch
