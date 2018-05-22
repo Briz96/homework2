@@ -1,9 +1,8 @@
-cp LaboratorioAlfa.world  //catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/worlds/.
-cp LabAlfa.launch  //catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/launch/.
+cp LaboratorioAlfa.world catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/worlds/.
+cp LabAlfa.launch catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/launch/.
+cp -r Modelli catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/.
 
-cp -r Modelli //catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/.
-
-cp -r Modelli //catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/.
+cp -r Modelli catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/.
 
 
 echo La mappa si apre con i comandi:
@@ -26,7 +25,7 @@ echo $ roslaunch turtlebot3_gazebo LabAlfa.launch
 echo
 echo lanciare la mappa:
 echo $ export TURTLEBOT3_MODEL=waffle
-echo $ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=//catkin_ws/src/homework2/LabAlfa.yaml
+echo $ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=catkin_ws/src/homework2/LabAlfa.yaml
 echo Eseguire Rviz:
 echo $ export TURTLEBOT3_MODEL=waffle 
 echo $ rosrun rviz rviz -d `rospack find turtlebot3_slam`/rviz/turtlebot3_slam.rviz

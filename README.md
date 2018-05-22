@@ -44,7 +44,7 @@ $ roslaunch turtlebot3_gazebo LabAlfa.launch
 
 lanciare la mappa:
 $ export TURTLEBOT3_MODEL=waffle
-$ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=/catkin_ws/src/homework2/LabAlfa.pgm
+$ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=catkin_ws/src/homework2/LabAlfa.pgm
 
 Eseguire Rviz:
 $ export TURTLEBOT3_MODEL=waffle 
